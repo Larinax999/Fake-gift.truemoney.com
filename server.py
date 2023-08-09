@@ -45,7 +45,7 @@ def api_createW(Money:float,Message:str=""):
             "tickets":[]
         }
     }
-    return f"https://gift.truemoncy.com/campaign/?v={Id}"
+    return f"https://YOUR.DOMAIN.COM/campaign/?v={Id}"
 
 @app.get("/campaign/",response_class=HTMLResponse)
 def api_index():return indexS
